@@ -1,0 +1,14 @@
+"SISA UANG RINA"
+
+Total_Uang_Rina =int(input("Total Uang Rina : "))
+Harga_Ikan=int(input("Harga Ikan : "))
+Harga_Buah =int(input("Harga Buah : "))
+Harga_Sayur =int(input("Harga Sayur : "))
+Harga_Ayam=int(input("Harga Ayam : "))
+
+Uang_Rina = Total_Uang_Rina-Harga_Ikan-Harga_Buah-Harga_Sayur-Harga_Ayam
+Total_Sumbangan = Uang_Rina * 20/100
+Sisa_Uang_Rina = Uang_Rina - Total_Sumbangan
+
+print("Total Uang yang di sumbangkan Rp. ",Total_Sumbangan)
+print("Sisa uang rina adalah Rp. ",Sisa_Uang_Rina)
