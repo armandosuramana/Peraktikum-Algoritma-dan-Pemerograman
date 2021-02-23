@@ -1,0 +1,13 @@
+umur = int(input("berapa umur anda :"))
+
+if umur >= 1 and umur <= 18 :
+    print("anda belum menikah")
+else :
+    if umur >=18 and umur <= 30:
+        print("anda masih maasiswa")
+        print("harus menyelesaikan kuliah anda")
+    if umur >= 30 :
+        print ("anda sudah mapan ")
+        print ("silahkan anda menikah")
+    if umur == 0 :
+        print("umur belum ada")
