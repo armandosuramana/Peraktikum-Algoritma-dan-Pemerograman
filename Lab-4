@@ -1,0 +1,10 @@
+print("===kalkulator===")
+print("pilihan anda :")
+print("1.persegi panjang ")
+O = int(input("masukan pilihan anda :"))
+if O ==1 :
+    panjang = int(input("panjang :"))
+    lebar  = int(input("lebar :"))
+    def persegipanjang(pnjang,lebar):
+        return panjang*lebar
+    print(("luas persegi panjang adaalah"),persegipanjang(panjang,lebar))
