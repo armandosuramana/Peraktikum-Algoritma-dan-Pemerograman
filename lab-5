@@ -1,0 +1,7 @@
+nilai = int(input("masukan nilai anda :"))
+
+while nilai <=70:
+    print(nilai)
+    nilai=nilai+1
+else:
+    print("nilai anda sudah mencapai niminum")
