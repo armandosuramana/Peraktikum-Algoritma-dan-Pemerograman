@@ -1,0 +1,6 @@
+nilai = int(input("masukan nilai anda : "))
+
+for i in range (1,nilai+1):
+    for j in range (1,i+1):
+        print("NEVER GIVE UP" ,i,end=" ")
+    print()
